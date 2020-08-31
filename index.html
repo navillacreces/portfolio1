@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header_menu">
+            <nav role="navigation">
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Info</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        <div class="header_title">
+            <h2>My Portfolio</h2>
+        </div>
+        <div class="header_logo">
+
+        </div>
+    </header>
+    <div class="header_nav">
+        <nav>
+            <div class="nav_options">
+                <ul>
+                    
+                    <li>
+                        
+                        <a class="nav_link" id="nav_link_projects">Projects</a>
+                    </li>
+                    <li>
+                        
+                        <a class="nav_link" id="nav_link_tech">Tech</a>
+                    </li>
+                    <li>
+                        
+                        <a class="nav_link" id="nav_link_contact">Contact</a>
+                    </li>
+                    <li>
+                        
+                        <a href='https://www.github.com/navillacreces/' target="_blank" class="nav_link" id="nav_link_git">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="hero_image">
+
+    </div>
+    <section class="about">
+        <div class="about_heading">
+            <h3>About</h3>
+        
+        </div>
+        <p>Hi, I'm Nick and I like full stack development.
+        </p>
+        <div class="about_stack_container">
+
+        
+        <div class="about_front">
+            <h3>Front-End</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>ReactJS</li>
+            </ul>
+        </div>
+        <div class="about_back">
+            <h3>Back-End</h3>
+            <ul>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>PostgreSQL</li>
+                <li>Heroku</li>
+            </ul>
+        </div>
+    </div>  
+       
+    
+    </section>
+    <section class="projects_mobile">
+        <h1>Projects</h1>
+        <button class="accordion">Full Stack Cookbook</button>
+                    <div class="panel">
+
+                        
+                        <div class="panel__app_desc">
+                            <p>This is a full-stack cookbook App that allows users to post thier best recipe. I plan on using this app
+                                to track my progress learning to cook. 
+                            </p>
+                        </div>
+                        
+                        <div class="panel_link_container">
+                        <!--    
+                            <img src="images/stock.jpg" alt="photoOf" class="project_photo" />
+                            
+                        -->
+                        
+                            <div class="link_container">
+                                <a href="https://github.com/navillacreces/cookbook-client" target="_blank" class="panel__link"> GitHub Repo Client</a> 
+                            <a href="https://github.com/navillacreces/cookbook-fs-api" target="_blank" class="panel__link">Repo API</a>  
+                             <a href="https://cookbook-client.now.sh" target="_blank" class="panel__link">Live App</a>
+                            </div>
+                        
+                        
+                            </div>
+                       
+                    </div>
+
+                    <button class="accordion">React News App</button>
+                    <div class="panel">
+                        <div class="panel__app_desc">
+                            <p>This application is a news app that uses the News API and materialUI to recreate the style of Google News.</p>
+                        </div>
+
+                        <div class="link_container">
+                            <p><a href="https://github.com/navillacreces/react-news-app/" target="_blank" class="panel__link">GitHub Repo</a></p>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <button class="accordion">Virtual Bookshelf</button>
+                    <div class="panel">
+
+                    <div class="panel__app_desc">
+                        <p>VFS-Bookshelf is a virtual bookshelf to assist with cataloging your book media. VFS-Bookshelf uses Google Books' API to gather information to
+                             provide more details and a photo of the book cover. If the user does not yet own the book, a purchase link is provided in the app.</p>
+                    </div>
+
+                    <div class="link_container">
+                        <p><a href="https://github.com/navillacreces/vfs-bookshelf/" target="_blank" class="panel__link">GitHub Repo</a></p>
+                    </div>
+                        
+                        
+                    </div>
+
+                    <button class="accordion">Search Giphy</button>
+                    <div class="panel">
+                        <div class="panel__app_desc">
+                            <p>This app is for users who would like to search for GIFs from Giphy.com closer to there original size.
+                                This app was inspired after a long serach for just the right GIF.
+                              </p>
+                              <p>
+                                This project uses the Giphy.com API,
+                                HTML5, CSS, JavaScript, jQuery, and ClipboardJS.
+                              </p>
+                        </div>
+                        <div class="link_container">
+                            <p><a href="https://github.com/navillacreces/search-giphy" target="_blank" class="panel__link"> GitHub Repo</a> | <a href="https://navillacreces.github.io/search-giphy/" target="_blank" class="panel__link">Live App</a></p>
+                        </div>
+                          
+                            
+                    </div>
+
+                    <button class="accordion">Another App</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <button class="accordion">Spotify App</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+    </section>
+    <section class="projects_large">
+        <div class="projects_container">
+            <div class="aProject">
+                <div class="project_container>">
+                <h3 class="project_title">Full Stack Cookbook</h3>
+                <img class="project_image cookbook" src="images/cookbook.png" alt="lol" />
+                <p class="project_desc">This is a full-stack cookbook App that allows users to post thier best recipe. I plan on using this app
+                    to track my progress learning to cook. </p>
+                    <p>github client</p>
+                    <p>github client</p>
+                    <p>github client</p>
+                   
+            </div>
+           
+            </div>
+            <div class="aProject">
+                <div class="project_container>">
+                <h3 class="project_title">React News App</h3>
+                <img class="project_image cookbook" src="images/react-news-app.png" alt="lol" />
+                <p class="project_desc">This is an attempt to recreate Google News with MaterialUI. React News App uses News API to gather
+                    story headlilnes.
+                </p>
+                <p>github client</p>
+                    <p>github client</p>
+                    <p>github client</p>
+            </div>
+       
+            </div>
+            <div class="aProject">
+                <div class="project_container>">
+                <h3 class="project_title">VFS-Bookshelf</h3>
+                <img class="project_image cookbook" src="images/screenshot-1.png" alt="lol" />
+                <p class="project_desc">VFS-Bookshelf is a virtual library to assist with cataloging your book media. VFS-Bookshelf uses Google Books' API to gather information to
+                    provide more details and a photo of the book cover. If the user does not yet own the book, a purchase link is provided in the app.</p>
+                    <p>github client</p>
+                    <p>github client</p>
+                    <p>github client</p>
+            </div>
+           
+            
+            </div>
+            <div class="aProject">
+                <div class="project_container>">
+                <h3 class="project_title">Search Giphy</h3>
+                <img class="project_image" src="images/macbook.jpg" alt="lol" />
+                <p class="project_desc">this is a short description</p>
+            </div>
+            <div class="project_links">
+                <ul>
+                    <li>
+                        client Repo
+                    </li>
+                    <li>
+                        backend Repo
+                    </li>
+                    <li>
+                        live app
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="aProject">
+                <div class="project_container>">
+                <h3 class="project_title">Project1 Title</h3>
+                <img class="project_image" src="images/macbook.jpg" alt="lol" />
+                <p class="project_desc">this is a short description</p>
+            </div>
+            <div class="project_links">
+                <ul>
+                    <li>
+                        client Repo
+                    </li>
+                    <li>
+                        backend Repo
+                    </li>
+                    <li>
+                        live app
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="aProject">
+                <div class="project_container>">
+                <h3 class="project_title">Project1 Title</h3>
+                <img class="project_image" src="images/macbook.jpg" alt="lol" />
+                <p class="project_desc">this is a short description</p>
+            </div>
+            <div class="project_links">
+                <ul>
+                    <li>
+                        client Repo
+                    </li>
+                    <li>
+                        backend Repo
+                    </li>
+                    <li>
+                        live app
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p><a href="https://github.com/navillacreces" target="__blank">GitHub</a></p>
+        <p><a href="https://linkedin.com/in/nicholasv0123" target="__blank">LinkedIn</a></p>
+        <p><a mailto=""></a>ContactMe</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
