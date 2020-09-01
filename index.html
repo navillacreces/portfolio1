@@ -14,32 +14,21 @@
         <div class="header_menu">
             <nav role="navigation">
                 <div id="menuToggle">
-                  <!--
-                  A fake / hidden checkbox is used as click reciever,
-                  so you can use the :checked selector on it.
-                  -->
+                
                   <input type="checkbox" />
                   
-                  <!--
-                  Some spans to act as a hamburger.
-                  
-                  They are acting like a real hamburger,
-                  not that McDonalds stuff.
-                  -->
+                
                   <span></span>
                   <span></span>
                   <span></span>
                   
-                  <!--
-                  Too bad the menu has to be inside of the button
-                  but hey, it's pure CSS magic.
-                  -->
+                 
                   <ul id="menu">
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Info</li></a>
-                    <a href="#"><li>Contact</li></a>
-                    <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                   <!--<a href="#"><li>Home</li></a> -->
+                    <a href="#About"><li>About</li></a>
+                    <a href="#Bio"><li>Info</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                   
                   </ul>
                 </div>
               </nav>
@@ -79,12 +68,12 @@
     <div class="hero_image">
 
     </div>
-    <section class="about">
+    <section class="about" id="About">
         <div class="about_heading">
             <h3>About</h3>
         </div>
         
-        <div class="about_bio">
+        <div class="about_bio" id="Bio">
             <p >Hi, I'm Nick and I like full stack development.
             </p>
         
@@ -271,7 +260,7 @@
            
         </div>
     </section>
-    <footer>
+    <footer id="contact">
         <p class="footer_link"><a href="https://github.com/navillacreces" target="__blank">GitHub</a></p>
         <p class="footer_link"><a href="mailto:nvillacreces72@gmail.com?Subject=Hello%20again" target="_top">Email me</a></p>
         <p class="footer_link"><a href="https://linkedin.com/in/nicholasv0123" target="__blank">LinkedIn</a></p>
