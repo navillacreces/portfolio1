@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NV Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/myLogo.png">
 </head>
 <body>
     <header>
@@ -81,10 +82,14 @@
     <section class="about">
         <div class="about_heading">
             <h3>About</h3>
+        </div>
+        
+        <div class="about_bio">
+            <p >Hi, I'm Nick and I like full stack development.
+            </p>
         
         </div>
-        <p>Hi, I'm Nick and I like full stack development.
-        </p>
+       
         <div class="about_stack_container">
 
         
@@ -95,6 +100,7 @@
                 <li>CSS</li>
                 <li>JS</li>
                 <li>ReactJS</li>
+                <li>JQuery</li>
             </ul>
         </div>
         <div class="about_back">
@@ -123,15 +129,12 @@
                         </div>
                         
                         <div class="panel_link_container">
-                        <!--    
-                            <img src="images/stock.jpg" alt="photoOf" class="project_photo" />
-                            
-                        -->
+                       
                         
                             <div class="link_container">
-                                <a href="https://github.com/navillacreces/cookbook-client" target="_blank" class="panel__link"> GitHub Repo Client</a> 
-                            <a href="https://github.com/navillacreces/cookbook-fs-api" target="_blank" class="panel__link">Repo API</a>  
-                             <a href="https://cookbook-client.now.sh" target="_blank" class="panel__link">Live App</a>
+                                <a href="https://github.com/navillacreces/cookbook-client" target="_blank" class="panel__link">GitHub Repo Client</a> 
+                                <a href="https://github.com/navillacreces/cookbook-fs-api" target="_blank" class="panel__link">Repo API</a>  
+                                <a href="https://cookbook-client.now.sh" target="_blank" class="panel__link">Live App</a>
                             </div>
                         
                         
@@ -161,7 +164,9 @@
                     </div>
 
                     <div class="link_container">
-                        <p><a href="https://github.com/navillacreces/vfs-bookshelf/" target="_blank" class="panel__link">GitHub Repo</a></p>
+                        <a href="https://github.com/navillacreces/vfs-bookshelf/" target="_blank" class="panel__link">GitHub Repo Client</a>
+                        <a href="https://github.com/navillacreces/vfs-bookshelf-api/" target="_blank" class="panel__link">GitHub Repo API</a>
+                        <a href="https://cookbook-client.now.sh" target="_blank" class="panel__link">Live App</a>
                     </div>
                         
                         
@@ -173,29 +178,34 @@
                             <p>This app is for users who would like to search for GIFs from Giphy.com closer to there original size.
                                 This app was inspired after a long serach for just the right GIF.
                               </p>
-                              <p>
-                                This project uses the Giphy.com API,
-                                HTML5, CSS, JavaScript, jQuery, and ClipboardJS.
-                              </p>
+                             
                         </div>
                         <div class="link_container">
-                            <p><a href="https://github.com/navillacreces/search-giphy" target="_blank" class="panel__link"> GitHub Repo</a> | <a href="https://navillacreces.github.io/search-giphy/" target="_blank" class="panel__link">Live App</a></p>
+                            <a href="https://github.com/navillacreces/search-giphy" target="_blank" class="panel__link"> GitHub Repo</a> | <a href="https://navillacreces.github.io/search-giphy/" target="_blank" class="panel__link">Live App</a>
                         </div>
                           
                             
                     </div>
 
-                    <button class="accordion">Another App</button>
+                    <button class="accordion">2000s Trivia Game</button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="panel__app_desc">
+                            <p>This game application is for some nostaligia of the golden age of the Internet for those who can remember Adobe flash games, instant messenger chat, and, streaming music. 
+                                It is also styled visually to line up with the early Internet design nostaligia.</p>
+                            </div>
+                        
+                            <div class="link_container">
+                                <a href="https://github.com/navillacreces/2000sTrivia-App-Revision" target="_blank" class="panel__link"> GitHub Repo</a> | <a href="https://navillacreces.github.io/2000sTrivia-App-Revision/" target="_blank" class="panel__link">Live App</a>
+                            </div>
                     </div>
 
-                    <button class="accordion">Spotify App</button>
-                    <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
+                  
     </section>
     <section class="projects_large">
+        <div class="projects_large_title">
+            <h1>Projects</h1>
+        </div>
+       
         <div class="projects_container">
             <div class="aProject">
                 <div class="project_container>">
@@ -203,9 +213,9 @@
                 <img class="project_image cookbook" src="images/cookbook.png" alt="lol" />
                 <p class="project_desc">This is a full-stack cookbook App that allows users to post thier best recipe. I plan on using this app
                     to track my progress learning to cook. </p>
-                    <p>github client</p>
-                    <p>github client</p>
-                    <p>github client</p>
+                    <a href="https://github.com/navillacreces/cookbook-client" target="_blank" class="panel__link"> GitHub Repo Client</a> 
+                    <a href="https://github.com/navillacreces/cookbook-fs-api" target="_blank" class="panel__link">Repo API</a>  
+                     <a href="https://cookbook-client.now.sh" target="_blank" class="panel__link">Live App</a>
                    
             </div>
            
@@ -227,11 +237,13 @@
                 <div class="project_container>">
                 <h3 class="project_title">VFS-Bookshelf</h3>
                 <img class="project_image cookbook" src="images/screenshot-1.png" alt="lol" />
-                <p class="project_desc">VFS-Bookshelf is a virtual library to assist with cataloging your book media. VFS-Bookshelf uses Google Books' API to gather information to
+                <p class="project_desc">This app is a virtual library to assist with organizing your media. Google Books' API is used to gather information to
                     provide more details and a photo of the book cover. If the user does not yet own the book, a purchase link is provided in the app.</p>
-                    <p>github client</p>
-                    <p>github client</p>
-                    <p>github client</p>
+                    <a href="https://github.com/navillacreces/vfs-bookshelf/" target="_blank" class="panel__link">GitHub Repo Client</a>
+                    
+                    <a href="https://github.com/navillacreces/vfs-bookshelf-api/" target="_blank" class="panel__link">GitHub Repo API</a>
+                    
+                    <a href="https://cookbook-client.now.sh" target="_blank" class="panel__link">Live App</a>
             </div>
            
             
@@ -239,69 +251,31 @@
             <div class="aProject">
                 <div class="project_container>">
                 <h3 class="project_title">Search Giphy</h3>
-                <img class="project_image" src="images/macbook.jpg" alt="lol" />
-                <p class="project_desc">this is a short description</p>
+                <img class="project_image cookbook" src="images/search-giphy.gif" alt="lol" />
+                <p class="project_desc">Search-Giphy is an app written primarily with JavaScript. It's purpose is to be able to search through the website and its trending gifs.
+                </p>
+                <a href="https://github.com/navillacreces/search-giphy" target="_blank" class="panel__link"> GitHub Repo</a> | <a href="https://navillacreces.github.io/search-giphy/" class="panel__link" target="_blank">Live App</a>
             </div>
-            <div class="project_links">
-                <ul>
-                    <li>
-                        client Repo
-                    </li>
-                    <li>
-                        backend Repo
-                    </li>
-                    <li>
-                        live app
-                    </li>
-                </ul>
-            </div>
+           
             </div>
             <div class="aProject">
                 <div class="project_container>">
-                <h3 class="project_title">Project1 Title</h3>
-                <img class="project_image" src="images/macbook.jpg" alt="lol" />
-                <p class="project_desc">this is a short description</p>
+                <h3 class="project_title">2000s Trivia Game</h3>
+                <img class="project_image" src="images/2000-trivia.png" alt="lol" />
+                <p class="project_desc">This game application is for some nostaligia of the golden age of the Internet for those who can remember Adobe flash games, instant messenger chat, and, streaming music. 
+                    It is also styled visually to line up with the early Internet design nostaligia.</p>
+                    <a href="https://github.com/navillacreces/2000sTrivia-App-Revision" class="panel__link" target="_blank"> GitHub Repo</a> | <a href="https://navillacreces.github.io/2000sTrivia-App-Revision/" class="panel__link" target="_blank">Live App</a>
             </div>
-            <div class="project_links">
-                <ul>
-                    <li>
-                        client Repo
-                    </li>
-                    <li>
-                        backend Repo
-                    </li>
-                    <li>
-                        live app
-                    </li>
-                </ul>
+         
             </div>
-            </div>
-            <div class="aProject">
-                <div class="project_container>">
-                <h3 class="project_title">Project1 Title</h3>
-                <img class="project_image" src="images/macbook.jpg" alt="lol" />
-                <p class="project_desc">this is a short description</p>
-            </div>
-            <div class="project_links">
-                <ul>
-                    <li>
-                        client Repo
-                    </li>
-                    <li>
-                        backend Repo
-                    </li>
-                    <li>
-                        live app
-                    </li>
-                </ul>
-            </div>
-            </div>
+           
         </div>
     </section>
     <footer>
-        <p><a href="https://github.com/navillacreces" target="__blank">GitHub</a></p>
-        <p><a href="https://linkedin.com/in/nicholasv0123" target="__blank">LinkedIn</a></p>
-        <p><a mailto=""></a>ContactMe</p>
+        <p class="footer_link"><a href="https://github.com/navillacreces" target="__blank">GitHub</a></p>
+        <p class="footer_link"><a href="mailto:nvillacreces72@gmail.com?Subject=Hello%20again" target="_top">Email me</a></p>
+        <p class="footer_link"><a href="https://linkedin.com/in/nicholasv0123" target="__blank">LinkedIn</a></p>
+        
     </footer>
     <script src="app.js"></script>
 </body>
