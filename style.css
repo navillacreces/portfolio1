@@ -26,9 +26,10 @@ ul{
     list-style-type: none;
 }
 footer{
+    margin-top: 50px;
     width: 100%;
     background-color:black;
-    height: 100px;
+    height: 140px;
     border-top: 1px solid white;
     display: flex;
     justify-content: center;
@@ -312,9 +313,7 @@ header{
     color: white;
     text-decoration: none;
 }
-.panel__link{
 
-}
 
 .about_stack_container{
   display: flex;
@@ -389,6 +388,7 @@ header{
         display: block;
         height: auto;
         background-color: white;
+        margin-bottom: 10px;
     }
     
     .projects_large_title > h1{
@@ -400,7 +400,7 @@ header{
     .projects_large_title{
       border-top: 1px solid black;
       border-bottom: 1px solid black;
-      height: 100px;
+      height: auto;
       display: flex;
       
     }
@@ -409,6 +409,32 @@ header{
         flex-wrap: wrap;
         justify-content: center;
     }
+    .project_container_title,.project_container_links{
+      display: flex;
+      justify-content: center;
+      background: black;
+      color: white;
+      align-items: center;
+    }
+
+    .project_container_links{
+      height: 40px;
+      display: flex;
+      justify-content: center;
+    }
+    .project_container_links > a{
+      text-align: center;
+    }
+
+    .project_container_desc{
+      display: flex;
+      justify-content: center;
+      background: white;
+      color: black;
+     
+    }
+
+    
 
     .projects_mobile{
         display: none;
@@ -443,36 +469,37 @@ header{
 
     .project_image{
         object-fit:contain;
-        height: 200px;
+        height: 215px;
         max-width: 300px;
+        margin-top: 10px;
+        border: 5px solid black;
+        border-radius: 3px;
     }
-
+ 
     .aProject{
         display: flex;
         flex-direction: column;
-        height: auto;
-        border: none;
+        height: 420px;
+        
        text-align: center;
-       margin: 15px;
+       margin-top: 30px;
+       margin-bottom: 25px;
+       margin-left: 12px;
+       margin-right: 12px;
        background-color: white;
-       max-width: 300px;
+       max-width: 376px;
     }
     .project_desc{
       line-height: 20px;
+      padding-top: 10px;
     }
     .project_links{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
+     
+     
     }
-    .project_links > ul{
-      padding-left: 0px;
-    }
+    
 
-    .cookbook{
-      border: 5px solid black;
-      border-radius: 3px;
-    }
+    
 
     footer >.footer_link > a:link{
         margin-left: 30px;
