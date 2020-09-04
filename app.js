@@ -38,10 +38,10 @@ function topFunction() {
 }
 $(function(){$("#myBtn").click(function(){$("html,body").animate({scrollTop:$("body").offset().top},"1000");return false})})
 
-$(function(){$("#nav_link_projects").click(function(){$("html,body").animate({scrollTop:$(".parallax").offset().top},"1000"); return false})})
+$(function(){$("#nav_link_projects").click(function(){$("html,body").animate({scrollTop:$(".projects_large").offset().top},"1000"); return false})})
 
-$(function(){$("#nav_link_tech").click(function(){$("html,body").animate({scrollTop:$(".parallax__tech").offset().top},"1000"); return false})})
+$(function(){$("#nav_link_tech").click(function(){$("html,body").animate({scrollTop:$(".about_stack_container").offset().top},"1000"); return false})})
 
-$(function(){$("#nav_link_contact").click(function(){$("html,body").animate({scrollTop:$(".parallax__tech").offset().top},"1000"); return false})})
+$(function(){$("#nav_link_contact").click(function(){$("html,body").animate({scrollTop:$("footer").offset().top},"1000"); return false})})
 $(function(){$("#nav_link_hired").click(function(){$("html,body").animate({scrollTop:$(".parallax__tech").offset().top},"1000"); return false})})
 
