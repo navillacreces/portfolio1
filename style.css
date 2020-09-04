@@ -26,13 +26,14 @@ ul{
     list-style-type: none;
 }
 footer{
-    margin-top: 50px;
+    
     width: 100%;
     background-color:black;
-    height: 140px;
+    height: auto;
     border-top: 1px solid white;
     display: flex;
     justify-content: center;
+    padding: 8px;
 }
 
 footer >.footer_link > a:link{
@@ -366,7 +367,7 @@ header{
 
 @media only screen and (min-width: 760px) {
 
-
+    
 
     .header_nav > nav > .nav_options > ul > li{
         display : inline;
@@ -388,7 +389,8 @@ header{
         display: block;
         height: auto;
         background-color: white;
-        margin-bottom: 10px;
+        padding-bottom:40px;
+        
     }
     
     .projects_large_title > h1{
@@ -399,7 +401,7 @@ header{
   
     .projects_large_title{
       border-top: 1px solid black;
-      border-bottom: 1px solid black;
+      
       height: auto;
       display: flex;
       
@@ -411,9 +413,10 @@ header{
     }
     .project_container_title,.project_container_links{
       display: flex;
+      border-top: 1px solid black;
       justify-content: center;
-      background: black;
-      color: white;
+      
+      color: black;
       align-items: center;
     }
 
@@ -421,9 +424,12 @@ header{
       height: 40px;
       display: flex;
       justify-content: center;
+      color: black;
+      border-bottom: 3px solid black;
     }
     .project_container_links > a{
       text-align: center;
+      color: black;
     }
 
     .project_container_desc{
@@ -431,7 +437,7 @@ header{
       justify-content: center;
       background: white;
       color: black;
-     
+      height: 150px;
     }
 
     
@@ -484,8 +490,8 @@ header{
        text-align: center;
        margin-top: 30px;
        margin-bottom: 25px;
-       margin-left: 12px;
-       margin-right: 12px;
+       margin-left: 15px;
+       margin-right: 15px;
        background-color: white;
        max-width: 376px;
     }
@@ -533,6 +539,8 @@ header{
 
 @media only screen and (min-width: 1000px){
 
+  
+  
 
   .projects_large_title >h1{
     color : white;
@@ -540,7 +548,7 @@ header{
 
   .projects_large{
       background-color: black;
-      border-bottom: 1px solid white;
+     
   }
   .projects_large > h1{
     color: white;
@@ -560,9 +568,29 @@ header{
     font-size: 22px;
     
   }
+  .project_container_title{
+    border-top: 1px solid white;  
+    background: black;
+    color: white;
+  }
+  .project_container_desc{
+    height: 120px;
+    background: black;
+    color: white; 
+  }
+  
+  .project_container_links{
+    border-bottom : 1px solid white;
+  }
 
   .aProject{
     background-color: black;
     color: white;
   }
+
+   .project_container_links > a{
+
+    color: white;
+
+   }
 }
