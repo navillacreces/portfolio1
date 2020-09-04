@@ -421,6 +421,10 @@ header{
     }
 
     .project_container_links{
+      border-top: 1px solid black;
+    }
+
+    .project_container_links{
       height: 40px;
       display: flex;
       justify-content: center;
@@ -574,13 +578,14 @@ header{
     color: white;
   }
   .project_container_desc{
-    height: 120px;
+    
     background: black;
     color: white; 
   }
   
   .project_container_links{
     border-bottom : 1px solid white;
+    border-top: 1px solid white;
   }
 
   .aProject{
