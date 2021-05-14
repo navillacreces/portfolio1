@@ -252,7 +252,7 @@ header{
 .panel_link_container{
   padding-top: 4px;
   display:flex;
-  /*background-color: black;*/
+ /* background-color: green;*/
   
   flex-direction: column;
   
@@ -295,7 +295,8 @@ header{
 
 .link_container{
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;    
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -305,7 +306,9 @@ header{
 .link_container > a {
     margin-left: 3px;
     margin-right:3px;
-   
+    margin-top: 9px;
+    
+    
     text-align: center;
 }
 
@@ -503,10 +506,12 @@ header{
       line-height: 20px;
       padding-top: 10px;
     }
+    /*
     .project_links{
      
      
     }
+    */
     
 
     
@@ -584,7 +589,7 @@ header{
   }
   
   .project_container_links{
-    border-bottom : 1px solid white;
+    /*border-bottom : 1px solid white;*/
     border-top: 1px solid white;
   }
 
@@ -596,6 +601,8 @@ header{
    .project_container_links > a{
 
     color: white;
+    margin-left: 9px;
+    margin-right: 9px;
 
    }
 }
